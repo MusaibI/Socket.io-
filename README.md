@@ -1,5 +1,13 @@
 # Chat Room App
 
+###Note: -
+// socket.emit - sends message to the current user
+// io.emit - send message to every user including current user
+// socket.broadcast.emit - sends messsag to every user except current user
+// io.to.emit - emits an event to everybody in specific room
+// socket.broadcast.to.emit - emits an event to everybody in specific room except current user
+
+
 ## Problem Statement
 
 In the existing chat room application, users need to catch up on past conversations by loading previous messages based on a specified timestamp range. This enhancement aims to improve user experience by enabling them to view messages sent within a specific time frame.
